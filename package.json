@@ -1,0 +1,47 @@
+{
+  "name": "lianxin-board",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 8083",
+    "build": "BASE=/lianxin-board vite build",
+    "build:dating": "vite build --mode zt1026",
+    "build:datingpre": "vite build --mode zt1026_pre",
+    "build:dating_prod": "vite build --mode zt1026_prod",
+    "build:QZ": "vite build --mode QZ",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@tweenjs/tween.js": "^18.6.4",
+    "@vueuse/core": "^10.9.0",
+    "3d-force-graph": "^1.73.0",
+    "animate.css": "3.6",
+    "animejs": "^3.2.1",
+    "ant-design-vue": "^4.0.6",
+    "axios": "^1.5.1",
+    "date-fns": "^2.30.0",
+    "echarts": "^5.4.3",
+    "echarts-gl": "^2.0.9",
+    "element-plus": "^2.6.3",
+    "pinia": "^2.1.6",
+    "screenfull": "^6.0.2",
+    "swiper": "^11.0.5",
+    "three": "^0.150.1",
+    "three-spritetext": "^1.8.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.3",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.3",
+    "vite": "^4.4.9"
+  }
+}

@@ -1,0 +1,69 @@
+.block-container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.block-container .counter {
+  height: 28px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.block-container .counter .count {
+  height: 28px;
+  font-family: DINAlternate, DINAlternate;
+  font-weight: bold;
+  font-size: 24px;
+  color: #00fffe;
+  line-height: 28px;
+  text-align: center;
+  font-style: normal;
+}
+
+.block-container .counter .unit {
+  height: 20px;
+  font-family:
+    PingFangSC,
+    PingFang SC;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f3f4f6;
+  line-height: 20px;
+  text-align: left;
+  font-style: normal;
+}
+
+.block-title {
+  position: absolute;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.block-title .title-icon {
+  width: 18px;
+  height: 18px;
+  background-image: url('../imgs/title-icon.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.block-title .title-text {
+  padding-left: 8px;
+  height: 28px;
+  font-family:
+    PingFangSC,
+    PingFang SC;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 25px;
+  text-align: left;
+  font-style: normal;
+}
