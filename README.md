@@ -33,4 +33,4 @@ CSDN：刘程云
 
 ## 效果图
 
-![1719198273740](README.assets/1719198273740.png)
+![1719198273740](https://gitee.com/chengyunliu/data/raw/master/README.assets/1719198273740.png)
